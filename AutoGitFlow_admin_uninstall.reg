@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; ===== Cleanup Old Keys =====
+[-HKEY_LOCAL_MACHINE\Software\LongQT-sea\git_workflow_automation_script]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\git_workflow_automation]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\git_workflow_automation]
