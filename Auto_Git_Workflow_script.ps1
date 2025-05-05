@@ -13,6 +13,7 @@ function Main {
     
     # 2. Ensure we are in a Git repository (Initialize or Clone if necessary)
     if (-not (Initialize-Or-Clone-GitRepository)) {
+        Write-Host "`nGit initialization cancelled. Exiting..."
         Start-Sleep 3
         exit 1
     }
